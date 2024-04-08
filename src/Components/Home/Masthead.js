@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Masthead() {
   return (
@@ -20,8 +21,9 @@ function Masthead() {
           specific needs of people related to ISL.
         </div>
         <div className="d-flex justify-content-center mt-5">
-          <button className="btn btn-info btn-lg me-3 px-3">Learn Sign</button>
-          <button className="btn btn-info btn-lg px-3 me-3">Sign See</button>
+          <Link to='/signSee/convert' className="nav-link">
+          <button className="btn btn-info btn-lg me-3 px-3">Sign See</button></Link>
+        <a href="https://learnsignbysignsee.ajnasnb.live/">  <button className="btn btn-info btn-lg px-3 me-3">Learn Signs</button></a>
 
         </div>
       </div>
