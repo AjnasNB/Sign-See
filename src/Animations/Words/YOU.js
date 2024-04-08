@@ -2,12 +2,12 @@ export const YOU = (ref) => {
 
     let animations = []
 
-    animations.push(["mixamorigRightHandMiddle1", "rotation", "z", Math.PI/2, "+"]);
-    animations.push(["mixamorigRightHandMiddle2", "rotation", "z", Math.PI/2, "+"]);
+    animations.push(["mixamorigRightHandMiddle1", "rotation", "z", Math.PI/2, "-"]);
+    animations.push(["mixamorigRightHandMiddle2", "rotation", "z", Math.PI/4, "+"]);
     animations.push(["mixamorigRightHandMiddle3", "rotation", "z", Math.PI/2, "+"]);
-    animations.push(["mixamorigRightHandRing1", "rotation", "z", Math.PI/2, "+"]);
+    animations.push(["mixamorigRightHandRing1", "rotation", "z", Math.PI/4, "-"]);
     animations.push(["mixamorigRightHandRing2", "rotation", "z", Math.PI/2, "+"]);
-    animations.push(["mixamorigRightHandRing3", "rotation", "z", Math.PI/2, "+"]);
+    animations.push(["mixamorigRightHandRing3", "rotation", "z", Math.PI/4, "-"]);
     animations.push(["mixamorigRightHandPinky1", "rotation", "z", Math.PI/2, "+"]);
     animations.push(["mixamorigRightHandPinky2", "rotation", "z", Math.PI/2, "+"]);
     animations.push(["mixamorigRightHandPinky3", "rotation", "z", Math.PI/2, "+"]);
@@ -15,9 +15,9 @@ export const YOU = (ref) => {
 
     animations.push(["mixamorigRightArm", "rotation", "x", -Math.PI/6, "-"]);
 
-    animations.push(["mixamorigRightHand", "rotation", "x", Math.PI/6, "+"]);
-    animations.push(["mixamorigRightHand", "rotation", "z", Math.PI/3, "+"]);
-    animations.push(["mixamorigRightHand", "rotation", "y", -Math.PI/6, "-"]);
+    animations.push(["mixamorigRightHand", "rotation", "x", Math.PI/8, "+"]);
+    animations.push(["mixamorigRightHand", "rotation", "z", Math.PI/4, "+"]);
+    animations.push(["mixamorigRightHand", "rotation", "y", -Math.PI/12, "-"]);
     
     ref.animations.push(animations);
 
@@ -34,7 +34,7 @@ export const YOU = (ref) => {
     animations.push(["mixamorigRightHandPinky3", "rotation", "z", 0, "-"]);
     animations.push(["mixamorigRightHandThumb2", "rotation", "y", 0, "+"]);
 
-    animations.push(["mixamorigRightArm", "rotation", "x", 0, "+"]);
+    animations.push(["mixamorigRightArm", "rotation", "x", 0, "-"]);
 
     animations.push(["mixamorigRightHand", "rotation", "x", 0, "-"]);
     animations.push(["mixamorigRightHand", "rotation", "z", 0, "-"]);

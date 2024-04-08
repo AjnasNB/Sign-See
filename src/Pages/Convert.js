@@ -192,7 +192,7 @@ function Convert() {
             </button>
           </div>
           <textarea rows={3} ref={textFromAudio} value={transcript} placeholder='Speech input ...' className='w-100 input-style' />
-          console.log(textFromAudio);
+          
           <button onClick={() => {sign(textFromAudio)}} className='btn btn-primary w-100 btn-style btn-start'>
             Start Animations
           </button>

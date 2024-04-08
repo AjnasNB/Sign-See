@@ -20,9 +20,9 @@ function Masthead() {
           specific needs of people related to ISL.
         </div>
         <div className="d-flex justify-content-center mt-5">
-          <a className="btn btn-info btn-lg px-3" href="#intro">
-            Get Started <i className="fa fa-angle-down" />
-          </a>
+          <button className="btn btn-info btn-lg me-3 px-3">Learn Sign</button>
+          <button className="btn btn-info btn-lg px-3 me-3">Sign See</button>
+
         </div>
       </div>
     </div>
